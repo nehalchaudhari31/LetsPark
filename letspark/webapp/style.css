@@ -1,0 +1,103 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+   background-image: url('4.jpeg');
+     background-repeat: no-repeat;
+     
+background-attachment: fixed;
+  background-size: 1920px 1400px;
+
+    font-family: 'Arial';  
+    
+}  
+
+.login{
+  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 60px;  
+        background: #ffffff;
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #ffffff;  
+    padding: 60px;  
+}  
+label{  
+    color: #000000;  
+    font-size: 19px;  
+ 
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: 3px solid #f1f1f1;
+    border-radius: 3px;  
+    padding-left: 8px;  
+    font-size: 20px;
+    padding: 5px;
+    
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+      
+    border-radius: 3px;  
+    padding-left: 8px;  
+    border: 3px solid #f1f1f1;
+     font-size: 20px;
+    padding: 5px;
+      
+}  
+
+
+#log {
+    width: 300px;
+    height: 45px;
+    border: 3px solid #f1f1f1;
+    border-radius: 30px;
+    padding-left: 7px;
+    font-family: sans-serif;
+    font-size: 31px;
+    
+    cursor: pointer;
+    
+    color: #0e850e;
+}
+input#log:hover {
+    background: #0bce51;
+    color: white;
+}
+span{  
+    color: green;  
+    font-size: 17px;  
+}  
+.register, .forgetpass {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid; */
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    /* text-decoration: none; */
+    background: #0bce51;
+    font-size: 21px;
+    /* color: white; */
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.forgetpass:hover {
+    box-shadow: 0px 0px 10px 2px #00000091;
+}
+
+.register:hover {
+    box-shadow: 0px 0px 10px 2px #e7090980;
+}
